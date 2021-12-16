@@ -63,10 +63,19 @@ nav .right-side a {
   padding: 50px 0;
   display: flex;
   justify-content: center;
+  background-image: url(assets/book\ background.jpg);
 }
 
 .blog-form .form-container {
-  width: 500px;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 30px gray;
+  padding: 10px 15px;
+  background-color: white;
+  border: 1px solid black;
 }
 
 .blog-form .form-container h1 {
