@@ -1,0 +1,111 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+nav {
+    background-color: rgb(229, 229, 236);
+    display: flex;
+    height: 7vh;
+}
+nav .left {
+    flex: 50%;
+    padding-left: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+nav .left img {
+    object-fit: contain;
+}
+
+nav .left li{
+    display: inline;
+}
+
+nav .left li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+nav .right {
+    flex: 50%;
+    padding-right: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .right a {
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: #ec4d37;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none
+}
+
+.container {
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section{
+    width:85%;
+    display: flex;
+}
+
+.section .left {
+    flex: 30%;
+    margin-right: 70px;
+}
+
+.section .right {
+    flex: 70%;
+}
+
+.section .right p {
+    text-align: justify;
+    color: rgb(104, 102, 102);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section .right .skill {
+    display: flex;
+    align-items: center;
+}
+
+.section .right .skill img {
+    width: 70px;
+    height: 70px;
+
+}
+
+.section .right .skill .one {
+    margin-right: 20px;
+}
+
+.section .right .skill .two {
+    margin-right: 20px;
+}
+
+.section .right .skill .three {
+    margin-right: 20px;
+}
+
+.section .right .sosmed a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.section .right .sosmed a img {
+    cursor: pointer;
+    width: 40px;
+}
